@@ -1,0 +1,20 @@
+language: go
+go:
+  - '1.9.x'
+  - '1.10.x'
+  - '1.11.x'
+  # - master
+
+sudo: false
+
+before_install:
+  - cd $HOME/gopath/src
+  - git clone --depth=1 https://github.com/tomoncle/golang.org.git -b 1.11.5
+
+install:
+  - go get github.com/tomoncle/win-get
+
+script:
+  - cd $HOME/gopath/src/github.com/tomoncle/win-get
+  - go run win_get.go --version
+  - go version
