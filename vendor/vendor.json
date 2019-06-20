@@ -21,10 +21,22 @@
 			"revisionTime": "2015-10-22T06:55:26Z"
 		},
 		{
+			"checksumSHA1": "pXGkKptkpqusf7/ALDaZVJGSpJg=",
+			"path": "github.com/mattn/go-runewidth",
+			"revision": "703b5e6b11ae25aeb2af9ebb5d5fdf8fa2575211",
+			"revisionTime": "2018-12-18T00:06:49Z"
+		},
+		{
 			"checksumSHA1": "EigM2DrCEgHKAwXTaTqHAemLAXg=",
 			"path": "gopkg.in/alecthomas/kingpin.v2",
 			"revision": "947dcec5ba9c011838740e680966fd7087a71d0d",
 			"revisionTime": "2017-12-17T18:08:21Z"
+		},
+		{
+			"checksumSHA1": "vFRAQg5aOYCERptQxvgDrMjB8C4=",
+			"path": "gopkg.in/cheggaaa/pb.v1",
+			"revision": "f907f6f5dd81f77c2bbc1cde92e4c5a04720cb11",
+			"revisionTime": "2019-03-01T13:15:20Z"
 		}
 	],
 	"rootPath": "github.com/tomoncle/win-get"
